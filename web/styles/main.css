@@ -1,0 +1,31 @@
+* {
+    font-family: futura, sans-serif;
+}
+h1{
+    font-size: 32px;
+    text-indent: 30px;
+    color: orange;
+    text-shadow: 2px 2px #000;
+}
+h2{
+    font-size: 26px;
+    text-indent: 30px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 24px;
+}
+main::first-letter { 
+    font-size: 200%;
+}
+header img{
+    float: left;
+}
+a {
+    color: orange;
+}
+a:hover{
+    color: green;
+}

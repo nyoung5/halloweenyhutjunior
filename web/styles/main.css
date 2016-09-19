@@ -2,10 +2,10 @@
     font-family: futura, sans-serif;
 }
 h1{
+	color: orange;
     font-size: 32px;
-    text-indent: 30px;
-    color: orange;
     text-shadow: 2px 2px #000;
+    text-indent: 30px;
 }
 h2{
     font-size: 26px;
@@ -25,7 +25,15 @@ header img{
 }
 a {
     color: orange;
+    font-weight: bold;
 }
 a:hover{
     color: green;
+}
+li{
+	margin: .5%;
+}
+footer{
+	font-size: .9em;	
+	text-align: center;
 }

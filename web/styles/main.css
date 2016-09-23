@@ -35,10 +35,15 @@ h3 {
 }
 h4 {
 	font-size: 24px;
-	margin: .5em;
+	margin: .5em .5em .5em 0em;
 }
 article::first-letter { 
 	font-size: 200%;
+}
+article {
+	width: 600px;
+	float:right;
+
 }
 header img {
 	float: left;
@@ -54,10 +59,15 @@ li {
 	margin: 0% 5% 5% 0%;
 }
 main {
-	padding-left: 10px;
-	padding-right: 10px;
+	/*
+	TODO: fix padding or margin to zero on left and right for top 
+	add padding or margin to article
+	*/
+	padding-left: 0px;
+	padding-right: 0px;
 }
 footer {
+	clear: both; /* Clears the float of other things above it */
 	border-top: 2px solid black;
 	font-size: .9em;	
 	text-align: center;
@@ -75,10 +85,42 @@ footer p {
 	margin: 5px;
 	padding: 5px;
 }
+#sidebar ul{
+	list-style: none;
+
+}
+#sidebar a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+
+#sidebar ul{
+	padding-left:0px;
+}
+#sidebar li{
+	background-color: orange;
+	padding: .3em;
+	border: 2px solid black;
+}
+
 #top-menu {
- /*TODO
- */
+	background-color: black;
 }
 #top-menu li{
-	display: block;
+	display: inline-block;
+	margin: 1% 1% 1% 6%;
+}
+#top-menu a:hover {
+	color: orange;
+}
+
+#top-menu ul{
+	margin: 0px;
+}
+#top-menu a{
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
 }

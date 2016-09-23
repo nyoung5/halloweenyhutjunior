@@ -32,18 +32,15 @@ h2 {
 }
 h3 {
 	font-size: 24px;
+        font-weight: bold;
 }
-h4 {
-	font-size: 24px;
-	margin: .5em .5em .5em 0em;
+h4{
+    font-size: .9em;
+    margin-bottom: 8px;
+    padding-left: 1em;
 }
-article::first-letter { 
-	font-size: 200%;
-}
-article {
-	width: 600px;
-	float:right;
-
+article img{
+    float: left;
 }
 header img {
 	float: left;
@@ -112,7 +109,7 @@ footer p {
 	margin: 1% 1% 1% 6%;
 }
 #top-menu a:hover {
-	background-color: gray;
+        background-color: gray;
 }
 
 #top-menu ul{
@@ -123,6 +120,23 @@ footer p {
 	text-decoration: none;
 	color: white;
 }
-#home-page a{
-    color: orange;
+#right-sidebar {
+    background-color: #F5DEB3;
+    width:180px;
+    float: right;
+    margin-left: 54px;
+}
+#right-sidebar ul{
+	list-style: none;
+        padding-left: 1em;
+        margin-top: 8px;
+}
+section p {
+    margin-left: 170px; 
+}
+section img{
+    margin-right: 10px; 
+}
+figcaption {
+    text-decoration: underline;
 }

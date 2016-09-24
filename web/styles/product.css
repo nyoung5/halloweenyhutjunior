@@ -46,8 +46,8 @@ header img {
 	float: left;
 }
 a {
-	color: orange;
-	font-weight: bold;
+	color: black;
+	
 }
 a:hover {
 	color: green;
@@ -88,6 +88,7 @@ footer p {
 #left-sidebar a{
 	display: block;
 	color: black;
+        font-weight: bold;
 	text-decoration: none;
 	width: 100%;
 }
@@ -107,6 +108,7 @@ footer p {
 #top-menu li{
 	display: inline-block;
 	margin: 1% 1% 1% 6%;
+        
 }
 #top-menu a:hover {
         background-color: gray;
@@ -114,6 +116,7 @@ footer p {
 
 #top-menu ul{
 	margin: 0px;
+        
 }
 #top-menu a{
 	font-weight: normal;

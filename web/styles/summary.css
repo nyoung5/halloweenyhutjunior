@@ -1,0 +1,131 @@
+* {
+	font-family: arial, sans-serif;
+}
+html {
+	background-image: url("../images/bats.gif");	
+	background-repeat: repeat;
+}
+body {
+	background-color: white;
+	margin: auto;
+	width: 800px;
+	border: 3px solid black;
+	/* Any number of shadows, separated by commas */
+	box-shadow: 1px 3px 3px 3px black;
+}
+header {
+	border-bottom: 2px solid black;
+	background: orange;
+	background: linear-gradient(45deg, white, orange, black);
+	padding: 6px;
+}
+h1 {
+	font-size: 32px;
+	text-indent: 30px;
+	margin:0px;
+	padding-top: 5px;
+}
+
+h2 {
+	font-size: 26px;
+	text-indent: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 24px;
+	margin: .5em .5em .5em 0em;
+}
+article {
+	width: 600px;
+	float:right;
+
+}
+header img {
+	float: left;
+}
+a {
+	color: orange;
+	font-weight: bold;
+}
+a:hover {
+	color: green;
+}
+li {
+	margin: 0% 5% 5% 0%;
+}
+main {
+	/*
+	TODO: fix padding or margin to zero on left and right for top 
+	add padding or margin to article
+	*/
+	padding-left: 0px;
+	padding-right: 0px;
+}
+footer {
+	clear: both; /* Clears the float of other things above it */
+	border-top: 2px solid black;
+	font-size: .9em;	
+	text-align: center;
+	background: orange;
+	background: linear-gradient(45deg, black, orange, white); /* Standard syntax */
+	padding: 20px;
+}
+footer p {
+	margin-bottom:0px;
+}
+#left-sidebar {
+	float: left;
+	width: 160px;
+	margin: 5px;
+	padding: 5px;
+}
+#left-sidebar ul{
+	list-style: none;
+
+}
+#left-sidebar a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+
+#left-sidebar ul{
+	padding-left:0px;
+}
+#left-sidebar li{
+	background-color: orange;
+	padding: .3em;
+	border: 2px solid black;
+}
+
+#top-menu {
+	background-color: black;
+}
+#top-menu li{
+	display: inline-block;
+	margin: 1% 1% 1% 6%;
+}
+#top-menu a:hover {
+	background-color: gray;
+}
+
+#top-menu ul{
+	margin: 0px;
+}
+#top-menu a{
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+}
+#products-page a{
+    color: orange;
+}
+table{
+    width: 100%;
+}
+th{
+    vertical-align: top;
+}

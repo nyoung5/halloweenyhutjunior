@@ -144,3 +144,29 @@ footer p {
 #home-page a{
     color: orange;
 }
+
+@media only screen and (max-width: 800px){
+    html {
+        background-image: none;
+        font-size: 90%;
+    }
+    body {
+        box-shadow: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    #top-menu{
+        
+    }
+    #left-sidebar{
+        clear: both;
+        float: none;
+        margin: auto;
+    }
+    article{
+        float: none;
+        margin: auto;
+        width:95%;
+    }
+    /* Add hamburger */
+}

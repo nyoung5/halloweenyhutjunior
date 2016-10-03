@@ -1,0 +1,146 @@
+* {
+	font-family: arial, sans-serif;
+}
+html {
+	background-image: url("../images/bats.gif");	
+	background-repeat: repeat;
+        margin: auto;
+}
+body {
+	background-color: white;
+	margin: auto;
+	max-width:960px;
+        width: 95%;
+	border: 3px solid black;
+	/* Any number of shadows, separated by commas */
+	box-shadow: 1px 3px 3px 3px black;
+        
+}
+header {
+	border-bottom: 2px solid black;
+	background: orange;
+	background: linear-gradient(45deg, white, orange, black);
+	padding: 6px;
+}
+h1 {
+	font-size: 2.5em /*32px*/;
+	text-indent: 1em;
+	margin:0;
+	padding-top: .2em;
+}
+
+h2 {
+	font-size: 1.8em;
+	text-indent: 1.2em;
+        margin:.5em 0 .5em;
+}
+h3 {
+	font-size: 1.6em;
+}
+h4 {
+	font-size: 1.6em;
+	margin: .5em .5em .5em 0em;
+}
+article::first-letter { 
+	font-size: 200%;
+}
+article {
+	width: 75%;
+	float:right;
+        
+}
+
+
+header img {
+    float: left;
+    max-width:85px;
+    min-width:40px;
+    max-height: 78px;
+    min-height: 38px;
+}
+a {
+	color: orange;
+	font-weight: bold;
+}
+a:hover {
+	color: green;
+}
+li {
+	margin: 0% 5% 5% 0%;
+}
+main {
+
+	padding-left: 0%;
+	padding-right: 0%;
+}
+footer {
+	clear: both; /* Clears the float of other things above it */
+	border-top: 2px solid black;
+	font-size: .9em;	
+	text-align: center;
+	background: orange;
+	background: linear-gradient(45deg, black, orange, white); /* Standard syntax */
+	padding: 2.5%;
+}
+
+footer p {
+	margin-bottom:0px;
+}
+#left-sidebar {
+	float: left;
+	width: 20%;
+	margin: 5px;
+	padding: 5px;
+}
+#left-sidebar ul{
+	list-style: none;
+
+}
+#left-sidebar a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	width: 100%;
+}
+
+#left-sidebar ul{
+	padding-left:0px;
+}
+#left-sidebar li{
+	background-color: orange;
+	padding: .3em;
+	border: 2px solid black;
+}
+
+#top-menu {
+	background-color: black;
+        height:3%;
+        width:100%
+        
+}
+#top-menu li{
+	display: inline-block;
+        width: 19%;
+        margin: 0% 0% 0% 0%;
+}
+#top-menu a:hover {
+	background-color: gray;
+}
+
+#top-menu ul{
+        width:100%;
+	margin: 0;
+        padding:0;
+}
+#top-menu a{
+        display: block;
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+        text-align: center;
+        padding: 4% 0;
+        width: 100%;
+}
+#home-page a{
+    color: orange;
+}
